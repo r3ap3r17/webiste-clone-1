@@ -1,0 +1,194 @@
+/* NOTE: font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+  font-family: 'Cinzel', sans-serif;
+  background-color: #1d1c1a;
+  color: white;
+  line-height: 1.5;
+}
+
+body .mine-navbar {
+  background-color: #1d1c1a;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 0.5px solid #fff5e7;
+  position: fixed;
+  z-index: 10;
+}
+
+body .mine-navbar .title {
+  text-align: center;
+  padding-top: 13px;
+  letter-spacing: 8px;
+  font-size: 40px;
+  color: #eead31;
+}
+
+body .mine-navbar .title span:hover {
+  color: #fff5e7;
+  transition: 0.3s;
+}
+
+body .navbar-links ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+body .navbar-links {
+  padding: 0px;
+}
+
+body .navbar-links li {
+  list-style: none;
+}
+
+body .navbar-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+}
+
+body .navbar-links li a {
+  color: #E5F9E0;
+  text-decoration: none;
+  padding: 30px;
+  display: block;
+}
+body .number {
+  font-style: italic;
+}
+
+.navbar-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+span:hover {
+  color: #eead31;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+body .section-1 {
+  margin: 0;
+  width: 100% !important;
+  height: 895px;
+  background: url(./img/home-header.jpg);
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  padding: 320px 0;
+}
+
+body .section-1-title {
+  border-top: 4px solid #eead31;
+  border-bottom: 4px solid #eead31;
+  text-align: center;
+  padding: 35px 20px;
+  width: 600px;
+}
+
+body .section-1-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding: 60px 10px;
+}
+
+body .section-2 {
+  margin: 0px;
+  height: 1080px;
+  padding: 335px 0;
+  text-align: center;
+}
+
+body .section-2-text {
+  text-align: center;
+  padding: 35px 20px;
+  width: 880px;
+}
+
+body .section-2-text:before {
+  content: "";
+  border-top: 4px solid #eead31;
+  position: absolute;
+  left: 600px;
+  right: 600px;
+  z-index: -1;
+}
+
+body .my-button {
+  background-color: inherit;
+  padding: 22px 53px 19px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+}
+
+body .section-2 .more-button:hover {
+  border: 2px solid #eead31;
+  transition: 0.3s;
+}
+
+body .section-3 .photo {
+  text-align: center;
+  height: 545px;
+  padding-top: 197.5px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+body .section-3 .photo-text {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  letter-spacing: 12px;
+}
+  /* NOTE: this doesnt work for some reason
+
+body .section-3 .photo-text:before {
+  content: "";
+  border-top: 4px solid #eead31;
+  position: absolute;
+  left: 600px;
+  right: 600px;
+}
+*/
+body .section-4 {
+  height: 1044px;
+  padding: 175px 190px;
+  text-align: center;
+}
+
+body .section-4:before {
+  content: "";
+  border-top: 4px solid #eead31;
+  position: absolute;
+  left: 600px;
+  right: 600px;
+  z-index: -1;
+}
+
+body .section-4 .my-input {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  border: none;
+  padding: 10.5px 18px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: inherit;
+  border-bottom: 1px solid #eead31;
+  outline: 0;
+  resize: none;
+}
